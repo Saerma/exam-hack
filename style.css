@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+/* Calendrier debut */
+/* Style général pour le calendrier */
+#calendar {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style de l'en-tête de calendrier */
+  .fc-header-toolbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style du titre du calendrier */
+  .fc-toolbar-title {
+    font-size: 24px;
+  }
+  
+  /* Style des boutons de navigation */
+  .fc-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fc-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Réduire la taille globale du calendrier */
+#calendar {
+    font-family: Arial, sans-serif;
+    width: 300px; /* Ajustez la largeur comme souhaité */
+    font-size: 12px; /* Ajustez la taille de police */
+  }
+  
+  /* Réduire la taille de l'en-tête de calendrier */
+  .fc-header-toolbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Réduire la taille du titre du calendrier */
+  .fc-toolbar-title {
+    font-size: 46px;
+  }
+  
+  /* Réduire la taille des boutons de navigation */
+  .fc-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 3px 6px;
+    margin: 0 3px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  /* Réduire la hauteur du calendrier */
+#calendar {
+    font-family: Arial, sans-serif;
+    width: 300px; /* Ajustez la largeur comme souhaité */
+    height: 290px; /* Ajustez la hauteur comme souhaité */
+    font-size: 12px; /* Ajustez la taille de police */
+  }
+  
+  
+/* Calendrier fin */
+
+.cinema {
+    background-color: #fee7ef;
+    border-radius: 15px;
+}
+.Design{
+    background-color: #e7fbfc;
+    border-radius: 15px;
+}
+.Web-design{
+background-color: #eae7f8;
+border-radius: 15px;
+}
+.log-design{
+    background-color: #ffe3d5 ;
+    border-radius: 15px;
+}
+
+.mass .card-text{
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+.mass .p1{  
+    color: #2e14ad;
+}
+.mass .p2{  
+    color: #b6346c;
+}
+.mass .p3{  
+    color: #f17024;
+}
+.mass .p4{  
+    color: #017170;
+}
+.mass .card{
+    border-radius: 15px;
+}
+
+/* Style de base de la carte */
+.mass .card {
+    transition: transform 0.3s;
+  }
+  
+  /* Style lorsque la carte est cliquée (avec :active) */
+  .mass .card:active {
+    transform: scale(1.3); /* Agrandit la carte de 10% lorsque cliquée */
+    cursor: pointer; /* Curseur de type main (main-pointer) */
+  }
+  
+  /* Style lorsque la souris survole la carte (avec :hover) */
+  .mass .card:hover {
+    transform: scale(1.1); /* Agrandit la carte de 10% au survol */
+    cursor: pointer; /* Curseur de type main (main-pointer) */
+  }
+  
+/* Sidebar */
+  #menu{
+    margin-top: 3rem;
+    margin-left: 1.7rem;
+  }
+  .sidebar{
+    border-radius: 2rem;
+  }
+
+
+  .sidebar a {
+      text-decoration: none;
+      color: #333; /* Couleur de texte par défaut */
+      transition: color 0.3s; /* Animation de transition de la couleur */
+  }
+  
+  
+  /* Style pour les icônes */
+  .sidebar .bi {
+      font-size: 24px; /* Taille de police par défaut pour les icônes */
+  }
+  
+  /* Style pour les icônes au survol */
+  .sidebar .bi:hover {
+      transform: scale(1.6); /* Augmente la taille de l'icône au survol */
+  }
+  
+  /* Style pour la liste déroulante */
+  .sidebar .nav.flex-column li {
+      padding: 5px 0; /* Espacement entre les éléments de la liste */
+  }
+  
+
+
+  /* footer */
+
+
+
+  @media only screen and (max-width: 800px){
+.response{
+  margin-left: 11%;
+    flex-direction: column;
+
+}
+.cinema span, h4 {
+  display: none;
+}
+.Design span, h4 {
+  display: none;
+}
+.Web-design span, h4 {
+  display: none;
+}
+.log-design span, h4 {
+  display: none;
+}
+
+}
